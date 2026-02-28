@@ -1,8 +1,57 @@
-# React + Vite
+# 🛍️ Outfiro Fashion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern Full-Stack E-Commerce Website for Men, Women & Kids Clothing.
 
-Currently, two official plugins are available:
+🔗 **Live Website:** https://outfiro.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 About The Project
+
+Outfiro Fashion is a modern and fully responsive fashion e-commerce platform built to provide a seamless shopping experience for Men, Women, and Kids clothing.
+
+The platform includes dynamic product listing, cart system, order management, and a secure admin dashboard for product control.
+
+---
+
+## ✨ Features
+
+### 🛒 User Features
+- Browse Men, Women & Kids Collections
+- Product Details View
+- Add to Cart
+- Update Cart Quantity
+- Place Order (COD)
+- View Order History
+- User Authentication (Login / Register)
+- Responsive Design (Mobile Friendly)
+
+### 🔐 Admin Features
+- Add / Remove Products
+- Update Order Status
+- View All Orders
+- Secure Admin Authentication
+
+---
+
+## 🏗️ Tech Stack
+
+### 🌐 Frontend
+- React.js
+- React Router
+- Context API
+- Tailwind CSS
+- Framer Motion
+
+### 🖥️ Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Cloudinary (Image Upload)
+- JWT Authentication
+
+### ☁ Deployment
+- Frontend: Netlify
+- Backend: Vercel
+- Database: MongoDB Atlas
