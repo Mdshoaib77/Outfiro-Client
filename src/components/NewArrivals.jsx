@@ -80,6 +80,8 @@ import { Autoplay, Pagination } from 'swiper/modules'
 
 import Item from './Item'
 import { ShopContext } from '../context/ShopContext'
+import HowItWorks from '../pages/HowItWorks'
+import PromoBanner from './PromoBanner'
 
 const NewArrivals = () => {
 
@@ -157,6 +159,8 @@ const NewArrivals = () => {
           ))}
         </Swiper>
       </motion.div>
+      <PromoBanner/>
+             <HowItWorks/>
     </motion.section>
   )
 }

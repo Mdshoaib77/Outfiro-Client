@@ -41,15 +41,15 @@ const Orders = () => {
 
   return (
     <div>
-      <div className="bg-primary mb-16">
+      <div className="mb-16 bg-primary">
         {/* Container */}
-        <div className="max-padd-container py-10">
+        <div className="py-10 max-padd-container">
           <Title title1={"Order"} title2={"List"} />
           {/* Container */}
           {orderData.map((item, i) => (
-            <div key={i} className="bg-white p-2 mt-3 rounded-lg">
-              <div className="text-gray-700 flex flex-col gap-4">
-                <div className="flex gap-x-3 w-full">
+            <div key={i} className="p-2 mt-3 bg-white rounded-lg">
+              <div className="flex flex-col gap-4 text-gray-700">
+                <div className="flex w-full gap-x-3">
                   {/* image */}
                   <div className="flex gap-6">
                     <img
@@ -60,8 +60,8 @@ const Orders = () => {
                   </div>
                   {/* order info */}
                   <div className="block w-full">
-                    <h5 className="h5 capitalize line-clamp-1">{item.name}</h5>
-                    <div className="flexBetween flex-wrap">
+                    <h5 className="capitalize h5 line-clamp-1">{item.name}</h5>
+                    <div className="flex-wrap flexBetween">
                       <div>
                         <div className="flex items-center gap-x-2 sm:gap-x-3">
                           <div className="flexCenter gap-x-2">
@@ -92,7 +92,7 @@ const Orders = () => {
                       {/* Status & button */}
                       <div className="flex gap-3">
                         <div className="flex items-center gap-2">
-                          <p className="min-w-2 h-2 rounded-full bg-green-500"></p>
+                          <p className="h-2 bg-green-500 rounded-full min-w-2"></p>
                           <p>{item.status}</p>
                         </div>
                         <button onClick={loadOrderData} className="btn-secondary !p-1.5 !py-1 !text-xs">Track Order</button>
